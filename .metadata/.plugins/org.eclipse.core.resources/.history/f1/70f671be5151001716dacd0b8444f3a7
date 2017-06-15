@@ -1,0 +1,24 @@
+package com.junehoe.portfolio.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/")
+public class HomeController {
+
+	@RequestMapping("")
+	public String index() {
+		return "forward:/index.html";
+	}
+	
+	@RequestMapping("/me")
+	public String aboutMe() {
+		return "me.html";
+	}
+	
+	@RequestMapping("/projects")
+	public String projects() {
+		return "projects.html";
+	}
+}

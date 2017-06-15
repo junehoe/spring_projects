@@ -1,0 +1,20 @@
+package com.junehoe.displaydate.controllers;
+
+@Controller
+public class HomeController {
+
+	@RequestMapping("/")
+	public String index() {
+		return "index.jsp";
+	}
+	
+	@RequestMapping("/date")
+	public String date() {
+		return "showDate.html";
+	}
+	
+	@RequestMapping("/time")
+	public String time() {
+		return "showTime.html";
+	}
+}

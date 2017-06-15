@@ -1,0 +1,5 @@
+package com.junehoe.portfolio.controllers;
+
+public class HomeController {
+
+}

@@ -1,0 +1,38 @@
+h1, h2, p, .links, .projects {
+  text-align: center;
+}
+
+.project {
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+}
+
+.index-projects {
+  display: inline-block;
+  width: 300px;
+  margin-left: 5px;
+}
+
+.index-about {
+  display: inline-block;
+  width: 300px;
+  margin-right: 5px;
+}
+
+.project-description {
+  width: 250px;
+  height: auto;
+  border: 2px solid black;
+  margin: 0 auto;
+  position: relative;
+}
+
+.description {
+  margin: 10px;
+}
+
+.project-image {
+  width: 100px;
+  height: 100px;
+}

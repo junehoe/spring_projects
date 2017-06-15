@@ -1,0 +1,5 @@
+package com.junehoe.controllerspractice.controllers;
+
+public class HomeController {
+
+}

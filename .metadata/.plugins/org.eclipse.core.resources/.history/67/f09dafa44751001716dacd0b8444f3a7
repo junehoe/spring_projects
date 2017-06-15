@@ -1,0 +1,14 @@
+package com.junehoe.firstproject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@RestController
+public class FirstprojectApplication {
+
+	@RequestMapping
+	public static void main(String[] args) {
+		SpringApplication.run(FirstprojectApplication.class, args);
+	}
+}
