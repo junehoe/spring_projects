@@ -1,1 +1,0 @@
-INDEX VERSION 1.130+/Users/cloud/Documents/spring_projects/.metadata/.plugins/org.eclipse.jdt.core
