@@ -1,0 +1,12 @@
+*{
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+#wrapper{
+  text-align: center;
+}
+
+.red{
+  color: red;
+}
